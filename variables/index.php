@@ -11,21 +11,25 @@
 
 //ära kasuta täpitähti muutujate sees, server ei saa nendest aru
 
-$taisArv = 7;
-$reaalArv = 3.14;
-$sone = '7';
-$toevaartusTrue = true;
-$toevaartusFalse = false;
+$arv1 = 7;
+$arv2 = 24;
 
-echo '$taisArv'.'<br>';
-echo $taisArv.'<br>';
-echo 'Täisarv = '.$taisArv.'<br>';
+echo '<h3>Matemaatilised operaatorid</h3>'
+echo $arv1.' + '.$arv2.' = '.($arv1+$arv2).'<br>';
+echo $arv1.' - '.$arv2.' = '.($arv1-$arv2).'<br>';
+echo $arv1.' * '.$arv2.' = '.($arv1*$arv2).'<br>';
+echo $arv1.' / '.$arv2.' = '.($arv1/$arv2).'<br>';
+echo $arv1.' % '.$arv2.' = '.($arv1%$arv2).'<br>';
 
-echo 'Reaalarv = '.$reaalArv.'<br>';
-echo 'Sõne = '.$sone.'<br>';
-echo 'Tõeväärtus true = '.$toevaartusTrue.'<br>';
-echo 'Tõeväärtus false = '.$toevaartusFalse.'<br>';
+echo 'hr>';
+echo '<h3>Võrdlusoperaatorid</h3>';
 
-echo gettype($sone).'<br>';
-settype($sone, 'int');
-echo gettype($sone).'<br>';
+echo $arv1.' < '.$arv2.' siis '.($arv1 < $arv2).'<br>';
+echo $arv1.' > '.$arv2.' siis '.($arv1 > $arv2).'<br>';
+echo $arv1.' <= '.$arv2.' siis '.($arv1 <= $arv2).'<br>';
+echo $arv1.' >= '.$arv2.' siis '.($arv1 >= $arv2).'<br>';
+echo $arv1.' == '.$arv2.' siis '.($arv1 == $arv2).'<br>';
+echo $arv1.' != '.$arv2.' siis '.($arv1 != $arv2).'<br>';
+
+
+
