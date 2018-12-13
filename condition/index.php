@@ -14,7 +14,7 @@
 //}
 
 
-echo '<h4>Tingimuslaused</h4>';
+/*echo '<h4>Tingimuslaused</h4>';*/
 
 
 /*$arv = rand(0,100);  //juhuslik number vahemikus 0-100
@@ -42,7 +42,7 @@ echo '<p style="color: '.$varv.'">'. $arv . '</p>';*/
 
 
 
-$foor = 'punane';
+/*$foor = 'punane';
 
 switch ($foor) {
     case 'punane':
@@ -57,5 +57,31 @@ switch ($foor) {
     default:
         echo '<p>mingi teine</p>';
         break;
-}
+}*/
+
+
+
+
+echo '<h3>Tsüklid</h3>';
+
+/*for ($arv = 1; $arv <=10; $arv++) {
+    echo $arv.'<br>';
+}*/
+
+
+
+
+/*$varv = '';
+for ($arv = 1; $arv <=10; $arv++) {
+    if ($arv % 2 == 0){
+        $varv = 'green';
+    }else{
+        $varv = 'red';
+    }
+    echo '<div style="color: '.$varv.'">'.$arv.'</div><br>';
+}*/
+
+
+
+
 
