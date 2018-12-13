@@ -17,7 +17,7 @@
 echo '<h4>Tingimuslaused</h4>';
 
 
-$arv = rand(0,100);  //juhuslik number vahemikus 0-100
+/*$arv = rand(0,100);  //juhuslik number vahemikus 0-100
 $varv = '';
 
 if ($arv > 0 and $arv < 25) {
@@ -37,4 +37,21 @@ if ($arv > 0 and $arv < 25) {
     $varv = 'orange';
 }
 
-echo '<p style="color: '.$varv.'">'. $arv . '</p>';
+echo '<p style="color: '.$varv.'">'. $arv . '</p>';*/
+
+
+
+
+$foor = 'punane';
+
+switch ($foor) {
+    case 'punane':
+        echo '<p style="color: red">punane!</p>';
+        break;
+    case 'kollane':
+        echo '<p style="color: yellow">kollane!</p>';
+        break;
+    default:
+        echo '<p>mingi teine</p>';
+        break;
+}
