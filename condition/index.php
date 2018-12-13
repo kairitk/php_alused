@@ -51,7 +51,11 @@ switch ($foor) {
     case 'kollane':
         echo '<p style="color: yellow">kollane!</p>';
         break;
+    case 'kroheline':
+        echo '<p style="color: green">roheline!</p>';
+        break;
     default:
         echo '<p>mingi teine</p>';
         break;
 }
+
