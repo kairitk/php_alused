@@ -21,6 +21,9 @@ print 'See on teine lause php keeles' . '<br>';*/
 // teksti väljastus echo käsuga
 echo 'See tekst on html-i sees.'.'<br>';
 
+
+
+
 ?>
 
 
