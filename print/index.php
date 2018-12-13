@@ -1,3 +1,13 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>php alused - väljund</title>
+</head>
+
+<body>
+<h2>Väljastus</h2>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -6,13 +16,13 @@
  * Time: 14:49
  */
 
-print 'See on esimene lause php keeles' . '<br>';
-print 'See on teine lause php keeles' . '<br>';
+/*print 'See on esimene lause php keeles' . '<br>';
+print 'See on teine lause php keeles' . '<br>';*/
 // teksti väljastus echo käsuga
-echo 'See tekst on echo abil väljastatud'.'<br>';
-
-
-
-
+echo 'See tekst on html-i sees.'.'<br>';
 
 ?>
+
+
+</body>
+</html>
