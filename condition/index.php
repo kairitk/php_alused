@@ -84,4 +84,16 @@ for ($arv = 1; $arv <=10; $arv++) {
 
 
 
+//korrutustabel
+echo '<table>';
+for ($arv = 1; $arv <= 10; $arv++) {
+    echo '<tr>';
+    for ($arv2 = 1; $arv2 <= 10; $arv2++) {
+        echo '<td>'.$arv*$arv2.'</td>';
+    }
+    echo '</tr>';
+}
+echo '</table>';
+
+
 
