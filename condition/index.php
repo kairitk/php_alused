@@ -102,7 +102,7 @@ echo '</table>';*/
 
 // on antud arv 123
 //liidame numbrid selles arvus järjekorras 3+2+1
-$arv = 123;
+/*$arv = 123;
 $numbriteSumma = 0;
 while ($arv != 0) {
     //leiame numbri
@@ -116,7 +116,27 @@ while ($arv != 0) {
     $numbriteSumma = $numbriteSumma + $number;
     echo 'Hetkel summa = ' . $numbriteSumma . '<br>';
 }
-echo 'Lõplik summa = '.$numbriteSumma.'<br>';
+echo 'Lõplik summa = '.$numbriteSumma.'<br>';*/
+
+
+
+
+
+
+
+//on antud number 442158755745
+//leia, mitu korda esineb number 5
+$arv = 442158755745;
+$numberkokku = 0;
+while ($arv != 0){
+    $number = $arv %10;
+    if ($number == 5){
+        $numberkokku = $numberkokku + 1; //$numberkokku++;
+    }
+    $arv = $arv / 10;
+    settype($arv,'int');
+}
+echo 'Number 5 esineb antud arvus '.$numberkokku.' korda<br>';
 
 
 
