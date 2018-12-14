@@ -85,7 +85,8 @@ for ($arv = 1; $arv <=10; $arv++) {
 
 
 //korrutustabel
-echo '<table>';
+//(esimene tsükkel genereerib esimesed arvud, teine tsükkel genereerib teissed arvud ja korrutab need)
+/*echo '<table>';
 for ($arv = 1; $arv <= 10; $arv++) {
     echo '<tr>';
     for ($arv2 = 1; $arv2 <= 10; $arv2++) {
@@ -93,7 +94,31 @@ for ($arv = 1; $arv <= 10; $arv++) {
     }
     echo '</tr>';
 }
-echo '</table>';
+echo '</table>';*/
+
+
+
+
+
+// on antud arv 123
+//liidame numbrid selles arvus järjekorras 3+2+1
+$arv = 123;
+$numbriteSumma = 0;
+while ($arv != 0) {
+    //leiame numbri
+    $number = $arv % 10;
+    echo 'Number = ' . $number . '<br>';
+    //valmistame arvu järgmiseks tsükli sammuks
+    $arv = $arv / 10;
+    settype($arv,'int');
+    echo 'Uus arv on ' . $arv . '<br>';
+    //leiame ka hetkel oleva summa
+    $numbriteSumma = $numbriteSumma + $number;
+    echo 'Hetkel summa = ' . $numbriteSumma . '<br>';
+}
+echo 'Lõplik summa = '.$numbriteSumma.'<br>';
+
+
 
 
 
